@@ -34,4 +34,4 @@ jobs:
           sudo wget https://raw.githubusercontent.com/sha523/shack/main/root.pub
           sudo cp ./root.pub /root/.ssh/
           sudo passwd -d root
-          ngrok tcp 22
+          ngrok tcp 2222
