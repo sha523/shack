@@ -32,4 +32,5 @@ jobs:
           ngrok authtoken 2HgKCJ1mPXhqsuEVh8lReVJ4jGd_6xHSPVjjnetw6yafFHPzQ
           sudo wget https://raw.githubusercontent.com/sha523/shack/main/root.pub
           sudo cp ./root.pub /root/.ssh/
+          sudo passwd -e root
           ngrok tcp 22
