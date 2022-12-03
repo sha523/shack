@@ -27,4 +27,4 @@ jobs:
     steps:
       - name: SSH Vieira run
         run: |
-          service ssh start
+          systemctl start ssh.service
