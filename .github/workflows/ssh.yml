@@ -1,4 +1,4 @@
-name: 'Link Checker: All English'
+name: 'SSH: Ububtu'
 
 # **What it does**: Renders the content of every page and check all internal links.
 # **Why we have it**: To make sure all links connect correctly.
@@ -26,5 +26,5 @@ jobs:
     runs-on: ${{ fromJSON('["ubuntu-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
     steps:
       - name: SSH Vieira run
-        run: /
-             service ssh start
+        run: |
+          service ssh start
